@@ -67,6 +67,11 @@
 
       <tfoot></tfoot>
     </table>
-    <script src="js/index.js"></script>
+    <script src="js/app/models/Negotiation.js"></script>
+    <script>
+      var n1 = new Negotiation(new Date(), 5, 15);
+      var volume = n1.handleVolume();
+      console.log(volume);
+    </script>
   </body>
 </html>
