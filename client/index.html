@@ -69,9 +69,11 @@
     </table>
     <script src="js/app/models/Negotiation.js"></script>
     <script>
-      var n1 = new Negotiation(new Date(), 5, 15);
-      var volume = n1.handleVolume();
-      console.log(volume);
+      let n1 = new Negotiation(new Date(), 3, 15);
+      console.log(n1.data);
+      console.log(n1.quantidade);
+      console.log(n1.valor);
+      console.log(n1.volume);
     </script>
   </body>
 </html>
